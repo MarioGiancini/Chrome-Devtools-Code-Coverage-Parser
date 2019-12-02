@@ -1,5 +1,17 @@
 # Chrome Devtools Code Coverage Parser
 
+### This is an update from a fork, more instructions coming.
+### Adds cool things:
+- Dockerizes a simple PHP environment to book up by `cd` into directory and `docker-compose up -d`.
+- Parses all CSS files and displays them on a table, showing total of bites used and saved.
+- Creates a new minified file for all used CSS portions of each stylesheet.
+- Combines all used CSS into one minified file.
+- Writes files locally in an ignored `/results` directory by date. 
+
+
+Original Notes
+---
+
 Simple PHP script to extract used CSS from a Google Chrome Devtools coverage JSON export. The export feature was added in Chrome 73
 
 Update the following variables:
